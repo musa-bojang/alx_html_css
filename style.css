@@ -1,0 +1,28 @@
+ body {
+        display: flex;
+        flex-direction: column;
+    }
+  header {
+        background-color: lightgray;
+        padding: 10px;
+    }
+    main {
+        display: flex;
+        flex-direction: row;
+        flex:auto;
+        background-color: aquamarine;
+    }
+    article {
+        flex: 2;
+        overflow-y: auto;
+        background-color: lightblue;
+    }
+
+    aside {
+        flex: 1;
+        overflow-y: auto;
+        background-color: lightcoral;
+    }
+    footer{
+        background-color: lightskyblue;
+    }
