@@ -1,0 +1,239 @@
+
+
+body {
+    box-sizing: content-box;
+    background-image: url('./images/Object.png');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+header {
+    padding: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border-radius: 5px;
+    padding-left: 50px;
+    
+    max-width: 1103px;
+    margin: 0 auto;
+}
+ul {
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-bottom: 0px;
+}
+.hero h1 {
+    text-align: center;
+    font-size: 120px;
+    color: #fff6f6;
+    margin-bottom: 0;
+    font-family: source sans pro, sans-serif;
+}
+.spanclass{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: source sans pro, sans-serif;
+    
+
+}
+.get-schooled button {
+    display: block;
+    margin: 60px auto 0 auto;
+    background-color: #C271FF;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    margin-bottom: 100px;
+}
+.hero-pros {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-right: 20px;
+    align-items: center;
+    
+}   
+.hero-pros div {
+    padding: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.hero-pros img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.hero-pros h3 {
+    
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    font-family: source sans pro, sans-serif;
+   
+   
+}
+.hero-pros p {
+    font-size: 16px;
+    color: #ffffff;
+    font-style: italic;  
+    font-weight: normal;
+    line-height: 24px;
+    font-family: source sans pro, sans-serif;
+    
+}
+
+.hero h2 {
+    padding: 20px;
+    font-size: 32px;
+    color: #ffffff;
+    font-family: source sans pro, sans-serif;
+    
+    text-align: center;
+}
+.hero h2 strong {
+    color: #C271FF;
+}
+
+.below-hero {
+    margin: 0px;
+    background-color: #C271FF; 
+    width: 100%;
+    
+   
+   
+}
+.below-hero div {
+    display: flex;
+    flex-direction: column;
+   
+}
+.below-hero img {
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+}
+
+.below-hero-text {
+    
+}
+.most-popular-tutorials h2 {
+    
+    font-size: 32px;
+    color: #000000;
+    font-family: source sans pro, sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.tutorial {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.tutorials {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 50px;
+
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+.Phillip img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #071629;
+    padding: 3rem;
+    height: 249px; 
+    display: flex;
+    align-items: center;
+    color: #fff;
+   
+}
+.free-membership {
+    background-color: #071629;
+    padding: 20px;
+    margin: 0px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.free-membership h2{
+    text-align: center;
+    color: white;
+}
+.freemember {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.freemember div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.free-membership button {
+    background-color: #C271FF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* footer section {
+    width: 100%; display: flex; flex-direction: column; justify-content: center;
+}
+
+footer section div {
+    display: flex; justify-content: space-between; align-items: center; width: 100%;
+} */
